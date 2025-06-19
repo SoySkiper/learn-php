@@ -19,7 +19,9 @@ $concept2 = new Concept("cerveza 2", 8.2);
 $sale->addConcept($concept);
 $sale->addConcept($concept2);
 echo $sale->getTotal() . "<br>";
+echo $sale->getDate() . "<br>";
 
+$sale->setDate('2023-10-03');
 
 // $concept = new Concept("cerveza", 5.5);
 // $sale->addConcept($concept);
@@ -27,7 +29,7 @@ echo $sale->getTotal() . "<br>";
 
 class Sale{
     protected float $total;
-    public string $date;
+    private string $date;
     private array $concepts;
     public static $count;
 
@@ -49,6 +51,17 @@ class Sale{
 
     public function getTotal(): float {
         return $this->total;
+    }
+
+    public function getDate(): string {
+        return $this->date;
+    }
+
+    public function setDate(string $date): void {
+        if(strlen($date) > 10 || strlen($date) < 10) {
+            throw new Exception("La fecha debe tener exactamente 10 caracteres");
+        }
+        $this->date = $date;
     }
 
     public function __destruct() {
