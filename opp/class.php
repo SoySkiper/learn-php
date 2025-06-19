@@ -20,6 +20,7 @@ $sale->addConcept($concept);
 $sale->addConcept($concept2);
 echo $sale->getTotal() . "<br>";
 
+
 // $concept = new Concept("cerveza", 5.5);
 // $sale->addConcept($concept);
 // print_r($sale->concepts);
