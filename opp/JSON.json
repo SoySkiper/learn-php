@@ -1,0 +1,106 @@
+[
+    {
+        "name": "Southern Pale Ale",
+        "style": "Pale Ale",
+        "country": "Mexico",
+        "abv": 5.2,
+        "ibu": 35,
+        "craft": true,
+        "description": "Amber-colored ale with citrus notes and moderate bitterness.",
+        "ingredients": [
+            "water",
+            "barley",
+            "hops",
+            "yeast",
+            "orange peel"
+        ],
+        "pairings": [
+            "grilled chicken",
+            "nachos",
+            "cheddar cheese"
+        ]
+    },
+    {
+        "name": "Black Night Imperial Stout",
+        "style": "Imperial Stout",
+        "country": "United Kingdom",
+        "abv": 9.0,
+        "ibu": 60,
+        "craft": false,
+        "description": "Rich dark beer with flavors of coffee, chocolate, and a hint of smoke.",
+        "ingredients": [
+            "water",
+            "roasted malt",
+            "hops",
+            "yeast"
+        ],
+        "pairings": [
+            "dark chocolate",
+            "barbecue ribs",
+            "blue cheese"
+        ]
+    },
+    {
+        "name": "Aurora Wheat",
+        "style": "Weissbier",
+        "country": "Germany",
+        "abv": 5.0,
+        "ibu": 12,
+        "craft": true,
+        "description": "Refreshing and smooth, with banana and clove aromas typical of Bavarian wheat beer.",
+        "ingredients": [
+            "water",
+            "wheat",
+            "barley",
+            "yeast",
+            "hops"
+        ],
+        "pairings": [
+            "white sausages",
+            "pretzels",
+            "apple strudel"
+        ]
+    },
+    {
+        "name": "Tropical Jump IPA",
+        "style": "India Pale Ale",
+        "country": "United States",
+        "abv": 6.8,
+        "ibu": 70,
+        "craft": true,
+        "description": "Bursting with tropical aromas like mango and passionfruit, with a dry, hoppy finish.",
+        "ingredients": [
+            "water",
+            "barley",
+            "hops",
+            "yeast",
+            "mango essence"
+        ],
+        "pairings": [
+            "spicy tacos",
+            "pineapple pizza",
+            "strong cheeses"
+        ]
+    },
+    {
+        "name": "Valley Clear Lager",
+        "style": "Lager",
+        "country": "Mexico",
+        "abv": 4.5,
+        "ibu": 15,
+        "craft": false,
+        "description": "Light and easy to drink, with a hint of corn sweetness and a refreshing finish.",
+        "ingredients": [
+            "water",
+            "corn",
+            "barley",
+            "hops",
+            "yeast"
+        ],
+        "pairings": [
+            "fish tacos",
+            "salads",
+            "salted peanuts"
+        ]
+    }
+]
