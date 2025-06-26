@@ -1,7 +1,9 @@
 <?php
 
-$some = function (float $a, float $b): float {
-    return $a + $b;
+$const = 5;
+
+$some = function (float $a, float $b) use ($const): float {
+    return $a + $b + $const;
 };
 
 $sum = fn (float $a, float $b): float => $a + $b;
@@ -23,4 +25,6 @@ echo "<br>";
 show($sum, 2, 6); // Output: 8
 echo "<br>";
 // Using anonymous function
-show(fn (float $a, float $b): float => $a + $b, 2, 6); // Output: 8
+// show(fn (float $a, float $b): float => $a + $b, 2, 6); // Output: 8
+
+show($some, 2, 6); // Output: 13
